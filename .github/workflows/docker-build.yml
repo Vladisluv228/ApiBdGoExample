@@ -27,6 +27,7 @@ jobs:
         with:
           context: app
           push: true
-          tags: vladisluv228/api_bd_go_example:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/api_bd_go_example:latest
+
       - name: Start Docker Compose
         run: docker-compose up -d
