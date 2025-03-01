@@ -21,7 +21,7 @@ _Проект разработан в рамках НИС Введение в о
 
 ### Через Docker Hub
 
-1. 1. **Скачайте образ из Docker Hub:**
+1. **Скачайте образ из Docker Hub:**
 
    ```bash
    docker pull vladisluv228/api_bd_go_example:latest
