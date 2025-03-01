@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/Vladisluv228/ApiBdGoExample/api/internal/db"
-	"github.com/Vladisluv228/ApiBdGoExample/api/internal/handlers"
+	"github.com/Vladisluv228/ApiBdGoExample/app/internal/db"
+	"github.com/Vladisluv228/ApiBdGoExample/app/internal/handlers"
 	"github.com/gin-gonic/gin"
 )
 
@@ -16,8 +16,8 @@ func main() {
 
 	r := initServer()
 
-	r.GET("/logs", handlers.GetUsersHandler)
-	r.POST("/logs", handlers.CreateUserHandler)
+	r.GET("/logs", handlers.GetLogsHandler)
+	r.POST("/logs", handlers.CreateLogHandler)
 	r.Run()
 }
 

@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/Vladisluv228/ApiBdGoExample/api/internal/models"
+	"github.com/Vladisluv228/ApiBdGoExample/app/internal/models"
 	"github.com/gin-gonic/gin"
 )
 

@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/Vladisluv228/ApiBdGoExample/api/internal/db"
+	"github.com/Vladisluv228/ApiBdGoExample/app/internal/db"
 )
 
 type Log struct {
