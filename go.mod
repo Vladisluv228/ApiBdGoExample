@@ -1,4 +1,4 @@
-module gin
+module github.com/Vladisluv228/ApiBdGoExample
 
 go 1.23.4
 
