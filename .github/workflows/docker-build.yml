@@ -26,6 +26,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: app
-          file: app/Dockerfile
           push: true
           tags: vladisluv228/api_bd_go_example:latest
+      - name: Start Docker Compose
+        run: docker-compose up -d
