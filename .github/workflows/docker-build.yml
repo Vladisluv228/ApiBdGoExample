@@ -30,4 +30,4 @@ jobs:
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/api_bd_go_example:latest
 
       - name: Start Docker Compose
-        run: docker compose -f 'app\docker-compose.yml' up -d --build
+        run: docker compose -f 'app/docker-compose.yml' up -d --build
