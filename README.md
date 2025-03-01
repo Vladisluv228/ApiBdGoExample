@@ -11,11 +11,8 @@ _Проект разработан в рамках НИС (Научно-иссл
    ```bash
    git https://github.com/Vladisluv228/ApiBdGoExample.git
    cd ApiBdGoExample
-2. **Соберите Docker-образ:**
+   cd app
+2. **Соберите и запустите Docker-образ:**
 
    ```bash
-   docker build -t .
-3. **Запустите контейнер:**
-
-   ```bash
-   docker run -it 
+   docker compose -f 'app\docker-compose.yml' up -d --build

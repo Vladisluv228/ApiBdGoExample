@@ -16,7 +16,7 @@ type Log struct {
 
 type LogInput struct {
 	ID int `json:"id"`
-	Message string
+	Message string `json:"message"`
 }
 
 func GetLogs(ctx context.Context) ([]Log, error) {
