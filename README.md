@@ -13,7 +13,6 @@ _Проект разработан в рамках НИС Введение в о
    ```bash
    git clone https://github.com/Vladisluv228/ApiBdGoExample.git
    cd ApiBdGoExample
-   cd app
 2. **Соберите и запустите Docker-образ:**
 
    ```bash
